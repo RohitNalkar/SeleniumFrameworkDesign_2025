@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-PlaceOrder" class="navigator-link">
-              <span class="suite-name border-failed">PlaceOrder</span>
+              <span class="suite-name border-passed">PlaceOrder</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,40 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 2 failed,  1 skipped,  1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-PlaceOrder" class="hide-methods failed suite-PlaceOrder"> (hide)</a> <!-- hide-methods failed suite-PlaceOrder -->
-                      <a href="#" panel-name="suite-PlaceOrder" class="show-methods failed suite-PlaceOrder"> (show)</a> <!-- show-methods failed suite-PlaceOrder -->
-                    </span>
-                    <div class="method-list-content failed suite-PlaceOrder">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-PlaceOrder" title="orderModule.PlaceOrderTest" class="method navigator-link" hash-for-method="placeTheOrderTest">placeTheOrderTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-PlaceOrder" title="orderModule.ErrorValidationTest" class="method navigator-link" hash-for-method="productErrorValidation">productErrorValidation</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-PlaceOrder -->
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-PlaceOrder" class="hide-methods skipped suite-PlaceOrder"> (hide)</a> <!-- hide-methods skipped suite-PlaceOrder -->
-                      <a href="#" panel-name="suite-PlaceOrder" class="show-methods skipped suite-PlaceOrder"> (show)</a> <!-- show-methods skipped suite-PlaceOrder -->
-                    </span>
-                    <div class="method-list-content skipped suite-PlaceOrder">
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-PlaceOrder" title="orderModule.PlaceOrderTest" class="method navigator-link" hash-for-method="orderHistoryTest">orderHistoryTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-PlaceOrder -->
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -137,6 +104,21 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-PlaceOrder" title="orderModule.ErrorValidationTest" class="method navigator-link" hash-for-method="loginErrorValidation">loginErrorValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PlaceOrder" title="orderModule.PlaceOrderTest" class="method navigator-link" hash-for-method="orderHistoryTest">orderHistoryTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PlaceOrder" title="orderModule.PlaceOrderTest" class="method navigator-link" hash-for-method="placeTheOrderTest">placeTheOrderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PlaceOrder" title="orderModule.ErrorValidationTest" class="method navigator-link" hash-for-method="productErrorValidation">productErrorValidation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-PlaceOrder -->
@@ -151,103 +133,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-PlaceOrder" class="panel PlaceOrder">
-          <div class="suite-PlaceOrder-class-failed">
+          <div class="suite-PlaceOrder-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">orderModule.ErrorValidationTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="productErrorValidation">
-                  </a> <!-- productErrorValidation -->
-                  <span class="method-name">productErrorValidation</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
-from disconnected: unable to send message to renderer
-  (Session info: chrome=134.0.6998.89)
-Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.2&apos;, java.version: &apos;17.0.11&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6e0e23809ef76292b909bd524d4b741e, findElement {value=.ng-animating, using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: /var/folders/wf/0zrxn0vs2nj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50314}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50314/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6e0e23809ef76292b909bd524d4b741e
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy10.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.isInvisible(ExpectedConditions.java:1374)
-	at org.openqa.selenium.support.ui.ExpectedConditions$48.apply(ExpectedConditions.java:1362)
-	at org.openqa.selenium.support.ui.ExpectedConditions$48.apply(ExpectedConditions.java:1358)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at utility.Base.waitForElementToDisappear(Base.java:36)
-	at pageObjectModel.ProductCataloguePage.addProductToCart(ProductCataloguePage.java:88)
-	at orderModule.ErrorValidationTest.productErrorValidation(ErrorValidationTest.java:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-PlaceOrder-class-failed -->
-          <div class="suite-PlaceOrder-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">orderModule.PlaceOrderTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="placeTheOrderTest">
-                  </a> <!-- placeTheOrderTest -->
-                  <span class="method-name">placeTheOrderTest</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button _ngcontent-wiv-c34=&quot;&quot; class=&quot;btn w-10 rounded&quot; style=&quot;float: right;&quot;&gt;...&lt;/button&gt; is not clickable at point (1157, 444). Other element would receive the click: &lt;div _ngcontent-wiv-c31=&quot;&quot; class=&quot;ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating&quot; style=&quot;background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=134.0.6998.89)
-Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.2&apos;, java.version: &apos;17.0.11&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9e8a5391315ba444fa32e61991846e42, clickElement {id=f.79E7B49D429A4241A58D378795025B97.d.4D8A4852802D1D2945C83F569794E76C.e.23}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: /var/folders/wf/0zrxn0vs2nj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50281}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50281/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[[[ChromeDriver: chrome on mac (9e8a5391315ba444fa32e61991846e42)] -&gt; css selector: .col-lg-4]] -&gt; css selector: .card-body button:last-of-type]
-Session ID: 9e8a5391315ba444fa32e61991846e42
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at pageObjectModel.ProductCataloguePage.addProductToCart(ProductCataloguePage.java:63)
-	at orderModule.PlaceOrderTest.placeTheOrderTest(PlaceOrderTest.java:31)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-PlaceOrder-class-failed -->
-          <div class="suite-PlaceOrder-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">orderModule.PlaceOrderTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -256,19 +144,17 @@ Session ID: 9e8a5391315ba444fa32e61991846e42
                   <a name="orderHistoryTest">
                   </a> <!-- orderHistoryTest -->
                   <span class="method-name">orderHistoryTest</span>
-                  <div class="stack-trace">java.lang.Throwable: Method orderModule.PlaceOrderTest.orderHistoryTest() on instance orderModule.PlaceOrderTest@5cee5251 depends on not successfully finished methods 
-[orderModule.PlaceOrderTest.placeTheOrderTest() on instance orderModule.PlaceOrderTest@5cee5251]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 8 stack frames
-</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeTheOrderTest">
+                  </a> <!-- placeTheOrderTest -->
+                  <span class="method-name">placeTheOrderTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-PlaceOrder-class-skipped -->
+          </div> <!-- suite-PlaceOrder-class-passed -->
           <div class="suite-PlaceOrder-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -282,12 +168,19 @@ Session ID: 9e8a5391315ba444fa32e61991846e42
                   <span class="method-name">loginErrorValidation</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productErrorValidation">
+                  </a> <!-- productErrorValidation -->
+                  <span class="method-name">productErrorValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-PlaceOrder-class-passed -->
         </div> <!-- panel PlaceOrder -->
         <div panel-name="test-xml-PlaceOrder" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/snehaladsul/Documents/ROHIT/01 - Study Material/Practice/Eclipse/SeleniumFrameworkDesign_2025/testSuites/orderModule/PlaceOrder.xml</span>
+            <span class="header-content">/Users/snehaladsul/eclipse-workspace/SeleniumFrameworkDesign_2025/testSuites/orderModule/PlaceOrder.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -356,24 +249,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'placeTheOrderTest')
 data.setCell(0, 2, 'orderModule.PlaceOrderTest')
-data.setCell(0, 3, 9136);
+data.setCell(0, 3, 24506);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'productErrorValidation')
 data.setCell(1, 2, 'orderModule.ErrorValidationTest')
-data.setCell(1, 3, 4554);
+data.setCell(1, 3, 15802);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'loginErrorValidation')
 data.setCell(2, 2, 'orderModule.ErrorValidationTest')
-data.setCell(2, 3, 285);
+data.setCell(2, 3, 811);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'orderHistoryTest')
 data.setCell(3, 2, 'orderModule.PlaceOrderTest')
-data.setCell(3, 3, 0);
+data.setCell(3, 3, 327);
 window.suiteTableData['PlaceOrder']= { tableData: data, tableDiv: 'times-div-PlaceOrder'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 29 seconds</span>
               <div id="times-div-PlaceOrder">
               </div> <!-- times-div-PlaceOrder -->
             </div> <!-- times-div -->
@@ -416,57 +309,63 @@ return data;
               <div class="chronological-class-name">orderModule.PlaceOrderTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">10 ms</span>
+                <span class="method-start">13 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">orderModule.ErrorValidationTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">10 ms</span>
+                <span class="method-start">13 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">orderModule.PlaceOrderTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">placeTheOrderTest</span>
-                <span class="method-start">1931 ms</span>
+                <span class="method-start">3195 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">orderModule.ErrorValidationTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">loginErrorValidation</span>
-                <span class="method-start">2760 ms</span>
+                <span class="method-start">3196 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">3045 ms</span>
+                <span class="method-start">4008 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">3156 ms</span>
+                <span class="method-start">4151 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">productErrorValidation</span>
-                <span class="method-start">4605 ms</span>
+                <span class="method-start">6629 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9162 ms</span>
+                <span class="method-start">22431 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">orderModule.PlaceOrderTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">11070 ms</span>
+                <span class="method-start">27701 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">27784 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">orderHistoryTest</span>
+                <span class="method-start">29178 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29505 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
