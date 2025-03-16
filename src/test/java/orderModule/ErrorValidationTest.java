@@ -15,7 +15,6 @@ import testComponents.BaseTest;
 public class ErrorValidationTest extends BaseTest {
 
 		
-	// Comment is added to run the jobs 
 	@Test (groups={"ErrorHandling"})
 	public void loginErrorValidation() {
 
