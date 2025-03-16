@@ -1,0 +1,25 @@
+[ 
+	{
+		"email"		: "rohitnalkar333@gmail.com",
+		"password"	: "Rohit@123",
+		"product"	: "ZARA COAT 3",
+		"month"		: "06",
+		"date"		:"18",
+		"cvv"		:"111",
+		"cardName"	:"ROHIT NALKAR",
+		"country"	: "India"
+	
+	},
+	
+	{
+		"email"		: "rohitnalkar666@gmail.com",
+		"password"	: "Rohit@123",
+		"product"	: "ADIDAS ORIGINAL",
+		"month"		: "10",
+		"date"		:"15",
+		"cvv"		:"222",
+		"cardName"	:"KALPESH PATIL",
+		"country"	: "Austria"
+	}
+
+]

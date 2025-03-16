@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="2" ignored="0" total="5" passed="0" failed="2" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-14T11:14:42 IST" name="PurchaseOrder" finished-at="2025-03-14T11:15:25 IST" duration-ms="43231">
+    <groups>
+      <group name="purchase">
+        <method signature="PurchaseOrderListenersTest.placeThePurchaseTest(java.util.HashMap)[pri:0, instance:orderModule.PurchaseOrderListenersTest@2e3967ea]" name="placeThePurchaseTest" class="orderModule.PurchaseOrderListenersTest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2025-03-14T11:14:42 IST" name="PurchaseOrderListenersTest" finished-at="2025-03-14T11:15:25 IST" duration-ms="43231">
+      <class name="orderModule.PurchaseOrderListenersTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:orderModule.PurchaseOrderListenersTest@2e3967ea]" started-at="2025-03-14T11:14:42 IST" name="setUp" finished-at="2025-03-14T11:14:42 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:orderModule.PurchaseOrderListenersTest@2e3967ea]" started-at="2025-03-14T11:14:42 IST" name="launchApplication" finished-at="2025-03-14T11:14:45 IST" duration-ms="3019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="placeThePurchaseTest(java.util.HashMap)[pri:0, instance:orderModule.PurchaseOrderListenersTest@2e3967ea]" started-at="2025-03-14T11:14:45 IST" name="placeThePurchaseTest" data-provider="getData" finished-at="2025-03-14T11:14:54 IST" duration-ms="8766" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{date=18, country=India, password=Rohit@123, product=ZARA COAT 3, cvv=111, month=06, cardName=ROHIT NALKAR, email=rohitnalkar333@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[FAILED - While Validating the order confirmation msg expected [@@THANKYOU FOR THE ORDER.] but found [THANKYOU FOR THE ORDER.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: FAILED - While Validating the order confirmation msg expected [@@THANKYOU FOR THE ORDER.] but found [THANKYOU FOR THE ORDER.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at orderModule.PurchaseOrderListenersTest.placeThePurchaseTest(PurchaseOrderListenersTest.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeThePurchaseTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orderModule.PurchaseOrderListenersTest@2e3967ea]" started-at="2025-03-14T11:14:54 IST" name="tearDown" finished-at="2025-03-14T11:14:54 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:orderModule.PurchaseOrderListenersTest@2e3967ea]" started-at="2025-03-14T11:14:54 IST" name="launchApplication" finished-at="2025-03-14T11:14:55 IST" duration-ms="1298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="placeThePurchaseTest(java.util.HashMap)[pri:0, instance:orderModule.PurchaseOrderListenersTest@2e3967ea]" started-at="2025-03-14T11:14:55 IST" name="placeThePurchaseTest" data-provider="getData" finished-at="2025-03-14T11:15:04 IST" duration-ms="8750" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{date=18, country=India, password=Rohit@123, product=ZARA COAT 3, cvv=111, month=06, cardName=ROHIT NALKAR, email=rohitnalkar333@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[FAILED - While Validating the order confirmation msg expected [@@THANKYOU FOR THE ORDER.] but found [THANKYOU FOR THE ORDER.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: FAILED - While Validating the order confirmation msg expected [@@THANKYOU FOR THE ORDER.] but found [THANKYOU FOR THE ORDER.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at orderModule.PurchaseOrderListenersTest.placeThePurchaseTest(PurchaseOrderListenersTest.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeThePurchaseTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orderModule.PurchaseOrderListenersTest@2e3967ea]" started-at="2025-03-14T11:15:04 IST" name="tearDown" finished-at="2025-03-14T11:15:04 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:orderModule.PurchaseOrderListenersTest@2e3967ea]" started-at="2025-03-14T11:15:04 IST" name="launchApplication" finished-at="2025-03-14T11:15:06 IST" duration-ms="2050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="placeThePurchaseTest(java.util.HashMap)[pri:0, instance:orderModule.PurchaseOrderListenersTest@2e3967ea]" started-at="2025-03-14T11:15:06 IST" name="placeThePurchaseTest" data-provider="getData" finished-at="2025-03-14T11:15:15 IST" duration-ms="8771" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{date=15, country=Austria, password=Rohit@123, product=ADIDAS ORIGINAL, cvv=222, month=10, cardName=KALPESH PATIL, email=rohitnalkar666@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[FAILED - While Validating the order confirmation msg expected [@@THANKYOU FOR THE ORDER.] but found [THANKYOU FOR THE ORDER.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: FAILED - While Validating the order confirmation msg expected [@@THANKYOU FOR THE ORDER.] but found [THANKYOU FOR THE ORDER.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at orderModule.PurchaseOrderListenersTest.placeThePurchaseTest(PurchaseOrderListenersTest.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeThePurchaseTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orderModule.PurchaseOrderListenersTest@2e3967ea]" started-at="2025-03-14T11:15:15 IST" name="tearDown" finished-at="2025-03-14T11:15:15 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:orderModule.PurchaseOrderListenersTest@2e3967ea]" started-at="2025-03-14T11:15:15 IST" name="launchApplication" finished-at="2025-03-14T11:15:16 IST" duration-ms="1272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="placeThePurchaseTest(java.util.HashMap)[pri:0, instance:orderModule.PurchaseOrderListenersTest@2e3967ea]" started-at="2025-03-14T11:15:16 IST" name="placeThePurchaseTest" data-provider="getData" finished-at="2025-03-14T11:15:25 IST" duration-ms="8762" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{date=15, country=Austria, password=Rohit@123, product=ADIDAS ORIGINAL, cvv=222, month=10, cardName=KALPESH PATIL, email=rohitnalkar666@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[FAILED - While Validating the order confirmation msg expected [@@THANKYOU FOR THE ORDER.] but found [THANKYOU FOR THE ORDER.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: FAILED - While Validating the order confirmation msg expected [@@THANKYOU FOR THE ORDER.] but found [THANKYOU FOR THE ORDER.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at orderModule.PurchaseOrderListenersTest.placeThePurchaseTest(PurchaseOrderListenersTest.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeThePurchaseTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orderModule.PurchaseOrderListenersTest@2e3967ea]" started-at="2025-03-14T11:15:25 IST" name="tearDown" finished-at="2025-03-14T11:15:25 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:orderModule.PurchaseOrderListenersTest@2e3967ea]" started-at="2025-03-14T11:15:25 IST" name="orderHistoryTest" finished-at="2025-03-14T11:15:25 IST" depends-on-methods="orderModule.PurchaseOrderListenersTest.placeThePurchaseTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method PurchaseOrderListenersTest.orderHistoryTest(java.util.HashMap)[pri:0, instance:orderModule.PurchaseOrderListenersTest@2e3967ea] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method PurchaseOrderListenersTest.orderHistoryTest(java.util.HashMap)[pri:0, instance:orderModule.PurchaseOrderListenersTest@2e3967ea] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+      </class> <!-- orderModule.PurchaseOrderListenersTest -->
+    </test> <!-- PurchaseOrderListenersTest -->
+  </suite> <!-- PurchaseOrder -->
+</testng-results>
